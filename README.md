@@ -1,5 +1,3 @@
-📝 `NOTE` Paste this template at the top of your existing `README.md` file from part 1 of this assignment. (🚫 Remove this paragraph after after checking off completed user stories)
-
 ## Flix Part 2
 
 ### User Stories
@@ -26,7 +24,7 @@
 
 ### Notes
 
-Describe any challenges encountered while building the app.
+I ran into trouble trying to replace the YouTubePlayerView with an ImageView if there was no trailer for the movie on Youtube. I attempted to have both views in the layout at the same time, one above the other (visually), and then change the visibility of the views appropriately. If there was a trailer on youtube, the ImageView would be invisible, and if their wasn't, the ImageView would be visible. However, this made the application crash. 
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
